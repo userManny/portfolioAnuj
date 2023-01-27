@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Window Object</h1>
+<h2>The localStorage Property</h2>
+
+<p>Saved name is:</p>
+<p id="demo"></p>
+<div class="new">
+    <form>
+     <input type="email" name="email" id="mail" placeholder="enter your mail">
+     <input type="submit" name="submit" value="lets start">
+
+    </form>  
+<script>
+// Set Item
+localStorage.setItem("lastname", "Smith");
+// Retrieve
+document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
+</script>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+
+    *{
+padding: 0;
+margin: o;
+font-family:'Sjosefin sans', sans-serif ;
+box-sizing: border-box;
+
+}
+body{
+    background-color:black;
+  
+}
+
+.hero {
+height: 100vh;
+width: 100%;
+background-color:;
+background-size: cover;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+} 
+
+span{
+    color: red
+    ;
+}
+.logo
+{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px ;
+    cursor: pointer;
+}
+.logo :hover{
+    background-color: #c3195d;
+}
+
+nav ul li{
+    list-style-type: ;
+    display: inline;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: ;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: #e1121c);
+    transistion: .4s;
+}
+.btn
+{background-color: #e1121c;
+color:white;
+border: 2px solid transparent;
+font-weight: bold;
+pad 10px 25px;
+border-radius: 35px;
+transition: transform .4s;
+}
+.btn:hover{
+transform: scale(1.2);
+}
+.header {
+   
+  
+    transition: 0.2s;}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+h1{
+    color: wheat;
+    margin: 20px 0px 20px;
+}
+
+h3{
+    color: palevioletred;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: pink;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.new form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+ .new form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline:none;
+    border-radius: 30px;
+ }
+ .new form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border: radius 30px; ;
+    background-color:red ;
+    color: white;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585;
+    top: 6px;
+    right: 8px;
+ }
+
+ .main{
+height: 50px;
+ }
+ .about {
+    background-color: #FFD4B2;
+ }
+ .about-text{
+   
+background-image: url(asd.jpg) ;
+padding: relative;
+overflow-y: hidden;
+overflow: hidden;
+color:#132743;
+align-items: baseline;
+border: 1px solid rgb(0, 0, 0);
+background-color: lightblue;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+}
+
+.bi{
+    color: #c3195d;
+    text-align: left;
+    margin-left: o;
+   
+
+.about-text h2 {
+    color: blueviolet;
+}
+
+ .contact{
+    color: #000;
+    font-size: 1.875em;
+ }
+
+ .skills
+ {
+   color: #c3195d;
+ }
+ <style>
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
